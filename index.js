@@ -7,11 +7,11 @@ const fs = require('fs');
 const os = require('os');
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 15444;
 const DB_FILE = './tasks.json';
 
 // ============ SECURITY CONFIG ============
-const ADMIN_KEY = 'Rishi&bots@2026#Panel';
+const ADMIN_KEY = 'MRSURAJ&bots@2026#Panel';
 const COOKIE_SECRET = process.env.COOKIE_SECRET || 'CookieEncrypt_998877_Rishi_FallbackKey';
 
 // Server ka naam — env se ya fixed name se
